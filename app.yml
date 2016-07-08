@@ -1,0 +1,8 @@
+template: Hello %s !
+defaultName: Stranger
+
+esConfiguration: 
+ nodeClient: false
+ clusterName: elasticsearch
+ servers: 
+ - 127.0.0.1:9300
